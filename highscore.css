@@ -1,0 +1,42 @@
+body {background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.btn {
+    padding: 5px;
+    text-align:center;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    background-color: darkgreen;
+    width: max-content;
+    font-size: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 4px greenyellow;
+    border-color: 0 0 2px 2px whitesmoke;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+input  {
+    float: right;
+    height: 75px;
+    width: 100%;
+}
