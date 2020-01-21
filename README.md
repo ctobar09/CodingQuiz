@@ -6,4 +6,4 @@ Users will select answers to each question, and score will increment based on co
 
 If a user chooses an incorrect answer, the quiz timer will drop in time remaining. 
 
-Find the Coding Quiz deployed at: https://ctobar09.github.io/CodingQuiz/
+Find the Coding Quiz deployed at: https://ctobar09.github.io/CodingQuiz/.
